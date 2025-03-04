@@ -58,6 +58,10 @@ Issue Logs: Any challenges or issues encountered were logged along with the solu
 - Performed cable management on the servers, routers, switches based on the labels & documentation we had.
 - Cables included ISR's 1-6, serial cables, ethernet cables, ASYN-ACAV Octil cables.
 
+# Day 5:
+- Implemented cable management for ethernet and power cables and labeling for cisco switches, cisco control switches, 9 dell and lenovo servers and 27 MAC minis for the NETLAB+ virtual environment.
+
+**Note:**It took a team of cyber assistants to complete this major project for the riverside city college's NETLAB+ virtual environment. With a total of 5 months of planning and 3 months of execution, the days listed within this GitHub repository may or may not be systematic considering it took several months to plan and execute the plan of the entire network infrastructure relocation.
 
 Final Network Diagrams: Updated network topology diagrams reflecting the new setup were created and reviewed.
 
