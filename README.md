@@ -1,6 +1,6 @@
-Performed by: Jason & a team of cyber assistants
+Performed by: Jason Patrick Salerno & a team of cyber assistants
 
-Date: June 24-27, 2024
+Date: June 2024 - August 2024 (3 months of execution after 5 months of planning)
 
 Project name: RCCs-Relocating-Network-Infrastructure
 
