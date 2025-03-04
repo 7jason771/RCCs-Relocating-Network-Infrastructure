@@ -1,4 +1,4 @@
-Performed by: Jason Patrick Salerno & a team of cyber assistants
+Performed by: Jason & a team of cyber assistants
 
 Date: June 2024 - August 2024 (3 months of execution after 5 months of planning)
 
