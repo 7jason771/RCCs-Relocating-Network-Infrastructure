@@ -1,1 +1,7 @@
-RCC's old server room (from the MLK building) de-racked and moved to the new BLCIS building (specifically the network operation room (NOC room)). Major network infrastructure relocation project finished after 5 months of planning and 3 months of execution by a team of cyber assistants supervised by Professor Skip Berry and Saem Lee.
+What you see here is the relocation of computer networking infrastructure (an entire server room) from Riverside City College's MLK Building's server room to 
+the new BLCIS building's network operation center room (NOC room), contributing to the de-racking, re-racking, moving, labeling, documenting, 
+performing cable management and installation of 9 servers, 9 Cisco switches, 9 ISR routers, 2 control switches, 5 UPS units, and 27 Mac Minis for
+the NETLAB+ virtual environment so that RCC students can access networking resources such as virtual machines, and virtual labs remotely. 
+A total of 5-month planning phase and 3 months of execution by a group of cyber assistants (7 people including Jason Patrick Salerno).
+
+
