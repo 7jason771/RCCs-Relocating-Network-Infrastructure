@@ -23,19 +23,20 @@ The project commenced with an extensive planning phase lasting approximately 5 t
 
 ## Network Infrastructure Inventory
 
-| Device Model              | Category           | Description                                | Notes                                   |
+| Device Model              | Category           | Description                                | Total Units Installed / Relocated       |
 |--------------------------|--------------------|--------------------------------------------|-----------------------------------------|
-| Cisco Catalyst 1000 Series | Network Switch    | Entry-level managed switch for connectivity | Part of 9 Cisco switches installed      |
-| Cisco Catalyst 2960 Series | Network Switch    | Layer 2/3 managed switch for enterprise networks | Part of 9 Cisco switches installed      |
-| Cisco 4300 Series         | ISR Router         | Mid-range ISR router for WAN and security  | Part of 9 ISR routers installed          |
-| Cisco 1941 Series         | ISR Router         | Older ISR model for routing and security   | Cataloged and likely installed           |
-| Cisco 1900 Series         | ISR Router         | ISR router for branch network routing      | Cataloged or installed                   |
-| Cisco ASA 5506-X          | Firewall           | Adaptive Security Appliance (firewall)     | Included in network security setup       |
-| Lenovo SR630             | Server             | Rack-mounted enterprise server              | Installed 9 Lenovo and Dell servers      |
-| APC Switched Rack PDU    | Power Distribution | Power distribution unit with remote control | Installed with UPS units in racks        |
-| APC UPS Units            | UPS                | Uninterruptible Power Supply units          | Installed 4 units across server racks    |
-| KVM Switch (B020-U16-19) | Server Management  | 16-port KVM switch for managing multiple servers | Installed on rack for server management  |
-| Mac Mini (27 units)       | Workstation / Client Device | Compact desktop computers used for NETLAB+ virtual environment | Installed and cabled in new rack         |
+| Cisco Catalyst 1000 Series | Network Switch    | Entry-level managed switch for connectivity | Part of total 9 Cisco switches          |
+| Cisco Catalyst 2960 Series | Network Switch    | Layer 2/3 managed switch for enterprise networks | Part of total 9 Cisco switches      |
+| Cisco 4300 Series         | ISR Router         | Mid-range ISR router for WAN and security  | Part of total 9 ISR routers              |
+| Cisco 1941 Series         | ISR Router         | Older ISR model for routing and security   | Included in total ISR routers (9)        |
+| Cisco 1900 Series         | ISR Router         | ISR router for branch network routing      | Included in total ISR routers (9)        |
+| Cisco ASA 5506-X          | Firewall           | Adaptive Security Appliance (firewall)     | Not specified                             |
+| Lenovo SR630             | Server             | Rack-mounted enterprise server              | Part of 9 Lenovo and Dell servers        |
+| Dell Servers             | Server             | Rack-mounted enterprise server              | Part of 9 Lenovo and Dell servers        |
+| Mac Mini                 | Workstation / Client Device | Compact desktop computers used for NETLAB+ virtual environment | 27 units installed                       |
+| APC Switched Rack PDU    | Power Distribution | Power distribution unit with remote control | Not specified                             |
+| APC UPS Units            | UPS                | Uninterruptible Power Supply units          | 5 units installed                         |
+| KVM Switch (B020-U16-19) | Server Management  | 16-port KVM switch for managing multiple servers | 1 unit installed                         |
 
 ---
 
