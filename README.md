@@ -1,73 +1,108 @@
-Performed by: Jason & a team of cyber assistants
+# RCCs-Relocating-Network-Infrastructure
 
-Date: June 2024 - August 2024 (3 months of execution after 5 months of planning)
+**Performed by:** Jason & a team of 7 cyber assistants and 2 supervisors.  
+**Date:** June 2024 - August 2024 (3 months of execution after 5 months of planning)  
 
-Project name: RCCs-Relocating-Network-Infrastructure
+---
 
+## Ultimate Project Overview
 
-# Ultimate Project Overview
-I collaborated with a dedicated team to execute a complex and pivotal project: the complete relocation of our school's lab network to a new building. 
-This undertaking required careful planning, coordination, and execution to ensure minimal disruption and optimal performance in the new location.
+This project involved the complete relocation of Riverside City College's school lab network to a new building. The initiative required meticulous planning, coordination, and execution to minimize disruption and ensure optimal network performance in the new environment.
 
-# Planning and Documentation
-We began with an extensive planning phase that spanned approximately 5-6 months. During this time, we thoroughly documented every aspect of the existing network configuration. This included:
+---
 
-# Inventory of Network Devices: 
-We cataloged every physical network device, including routers, switches, UPS units, and firewalls.
-Configuration Records: Detailed records of each device's configuration were maintained to ensure a seamless setup in the new location.
-Network Topology Mapping: We created comprehensive network topology diagrams to guide the reinstallation process and troubleshoot any issues efficiently.
+## Planning and Documentation
 
-# Physical Relocation
-The actual relocation process involved several critical steps:
+The project commenced with an extensive planning phase lasting approximately 5 to 6 months. During this phase, the team thoroughly documented all aspects of the existing network, including:
 
-# De-Racking Equipment: 
-We carefully de-racked all networking equipment from the existing lab. This required precision to avoid damaging sensitive components.
-Secure Transportation: The equipment was securely transported to the new building, ensuring that all devices were protected from potential transit damage.
-Re-Racking in New Location: Once at the new building, we re-racked all the networking equipment. This phase demanded careful attention to detail to ensure that all devices were properly installed and connected.
+- **Inventory of Network Devices:** Comprehensive cataloging of all physical network equipment such as routers, switches, UPS units, and firewalls.  
+- **Configuration Records:** Detailed documentation of device configurations to guarantee a seamless reinstallation.  
+- **Network Topology Mapping:** Creation of accurate network topology diagrams to guide the reinstallation and facilitate troubleshooting.
 
-# Bringing Up the Network
-After physically relocating the equipment, our focus shifted to bringing up the entire school lab network in the new environment. Key activities included:
+---
 
-# Cabling Configuration: 
-We carefully restructured the network cabling infrastructure based on detailed plans to optimize performance and reliability across the school's new environment.
+## Network Infrastructure Inventory
 
-# Issue Resolution: 
-Addressing any challenges encountered during the cabling setup process, we ensured a smooth transition for the school's network relocation project.
+| Device Model              | Category           | Description                                | Notes                                   |
+|--------------------------|--------------------|--------------------------------------------|-----------------------------------------|
+| Cisco Catalyst 1000 Series | Network Switch    | Entry-level managed switch for connectivity | Part of 9 Cisco switches installed      |
+| Cisco Catalyst 2960 Series | Network Switch    | Layer 2/3 managed switch for enterprise networks | Part of 9 Cisco switches installed      |
+| Cisco 4300 Series         | ISR Router         | Mid-range ISR router for WAN and security  | Part of 9 ISR routers installed          |
+| Cisco 1941 Series         | ISR Router         | Older ISR model for routing and security   | Cataloged and likely installed           |
+| Cisco 1900 Series         | ISR Router         | ISR router for branch network routing      | Cataloged or installed                   |
+| Cisco ASA 5506-X          | Firewall           | Adaptive Security Appliance (firewall)     | Included in network security setup       |
+| Lenovo SR630             | Server             | Rack-mounted enterprise server              | Installed 9 Lenovo and Dell servers      |
+| APC Switched Rack PDU    | Power Distribution | Power distribution unit with remote control | Installed with UPS units in racks        |
+| APC UPS Units            | UPS                | Uninterruptible Power Supply units          | Installed 4 units across server racks    |
+| KVM Switch (B020-U16-19) | Server Management  | 16-port KVM switch for managing multiple servers | Installed on rack for server management  |
+| Mac Mini (27 units)       | Workstation / Client Device | Compact desktop computers used for NETLAB+ virtual environment | Installed and cabled in new rack         |
 
-# Documentation and Review
-Throughout the project, we maintained detailed documentation of every step. This included:
+---
 
-# Installation Procedures
-Each step of the re-racking and configuration process was documented to provide a clear record of actions taken.
-Issue Logs: Any challenges or issues encountered were logged along with the solutions implemented.
+## Physical Relocation
 
-# Day 1:
-- Installed 4 APC UPS to the 2 new server racks, 2 UPS's for 1 rack.
+The physical relocation was executed through a series of carefully planned steps:
 
-# Day 2:
-- Moved and installed 9 lenovo and dell servers to the new server racks.
-- Installed and cabled 27 mac minis to a new rack.
-- Installed 1 KVM switch on top of one of the racks with several servers installed.
+- **De-Racking Equipment:** Systematic removal of all networking equipment from the existing lab with attention to avoid damage to sensitive components.  
+- **Secure Transportation:** Safe transit of all devices to the new building, ensuring protection from damage during transport.  
+- **Re-Racking in New Location:** Precise installation of equipment into new server racks, ensuring correct connections and secure mounting.
 
-# Day 3: 
-- Installed 9 cisco switches to a new rack.
-- Installed 9 ISR (routers).
-- Installed 1 APC UPS & 2 control switches
+---
 
-# Day 4:
-- Performed cable management on the servers, routers, switches based on the labels & documentation we had.
-- Cables included ISR's 1-6, serial cables, ethernet cables, ASYN-ACAV Octil cables.
+## Bringing Up the Network
 
-# Day 5:
-- Implemented cable management for ethernet and power cables and labeling for cisco switches, cisco control switches, 9 dell and lenovo servers and 27 MAC minis for the NETLAB+ virtual environment.
+Following equipment relocation, the team focused on re-establishing the full lab network in the new location. This included:
 
+- **Cabling Configuration:** Reorganization of network cabling infrastructure according to detailed plans to optimize performance and reliability.  
+- **Issue Resolution:** Prompt identification and resolution of challenges encountered during the cabling and setup process to ensure a smooth transition.
 
-**Note:**It took a team of cyber assistants to complete this major project for the riverside city college's NETLAB+ virtual environment. With a total of 5 months of planning and 3 months of execution, the days listed within this GitHub repository may or may not be systematic considering it took several months to plan and execute the plan of the entire network infrastructure relocation.
+---
 
+## Documentation and Review
 
-Final Network Diagrams: Updated network topology diagrams reflecting the new setup were created and reviewed.
+Throughout the project, thorough documentation was maintained, including:
 
-# Conclusion
-The network relocation project was a one-time, well-planned initiative that required significant preparation and coordination. 
-The careful planning and detailed documentation were critical to its success, ensuring that the transition to the new building was smooth and efficient. 
-Our team’s dedication and systematic approach enabled us to relocate the entire school lab network with minimal downtime, maintaining the integrity and performance of our network infrastructure.
+- **Installation Procedures:** Step-by-step records of the re-racking and configuration process.  
+- **Issue Logs:** Logs of encountered issues and corresponding solutions.
+
+---
+
+## Project Execution Timeline
+
+### Day 1
+- Installed 4 APC UPS units across 2 new server racks (2 UPS units per rack).
+
+### Day 2
+- Relocated and installed 9 Lenovo and Dell servers into the new racks.  
+- Installed and cabled 27 Mac Minis into a new rack.  
+- Installed 1 KVM switch on top of one rack to manage multiple servers.
+
+### Day 3
+- Installed 9 Cisco switches into the new rack.  
+- Installed 9 ISR routers.  
+- Installed 1 APC UPS and 2 control switches.
+
+### Day 4
+- Performed cable management on servers, routers, and switches following labels and documentation.  
+- Managed cables including ISR units 1-6, serial cables, Ethernet cables, and ASYN-ACAV Octil cables.
+
+### Day 5
+- Finalized cable management and labeling of Ethernet and power cables for Cisco switches, control switches, Dell and Lenovo servers, and Mac Minis for the NETLAB+ virtual environment.
+
+---
+
+> **Note:** This complex project was successfully completed by a dedicated team of cyber assistants. While the timeline reflects discrete days of activity, the overall effort spanned several months of detailed planning and execution to ensure minimal downtime and a smooth network relocation.
+
+---
+
+## Final Deliverables
+
+- Updated and reviewed network topology diagrams reflecting the new network setup in the relocated environment.
+
+---
+
+## Conclusion
+
+This network relocation was a well-planned, one-time initiative that required significant preparation and coordination. The comprehensive planning and detailed documentation were crucial to its success, enabling a smooth transition with minimal downtime. The team's dedication ensured the continued integrity and high performance of the school’s network infrastructure in its new location.
+
+---
